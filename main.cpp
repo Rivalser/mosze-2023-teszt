@@ -8,12 +8,11 @@ int main()
 
     std::cout << "1-100 ertekek duplazasa: " << std::endl;
 
-    for (int i = 0; i < N_ELEMENTS+1; i++)
+    for (int i = 0; i < N_ELEMENTS; i++)
     {
-        b[i] = i * 2;
+        b[i] = (i+1) * 2;
         int szam = b[i];
-        if(i>0)
-        std::cout << "Ertek: " << szam << std::endl;
+            std::cout << "Ertek: " << szam << std::endl;
     }
 
     std::cout << "Atlag szamitasa: " << std::endl;
